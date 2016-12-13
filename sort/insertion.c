@@ -1,5 +1,9 @@
 #include "sort.h"
 
+//
+// [in]:  a list not sort
+// [out]: a sort list
+//
 bool insert_sort(key_t arr[], int len)
 {
     if (!arr || len<=0)
